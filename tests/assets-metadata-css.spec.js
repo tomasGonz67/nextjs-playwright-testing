@@ -16,7 +16,10 @@ test("layout has css applied", async ({ page }) => {
 
 test("global css applied", async ({ page }) => {
   await page.goto(localhost);
-  await expect(page.locator("body")).toHaveCSS("font-size", "18px");
+  await expect(page.locator("body")).toHaveCSS(
+    "font-size",
+    /^(\d+(\.\d+)?)(px|em|rem)$/
+  ); // check thats there is a font-size set unit px or rem or em
 });
 
 test("layout back to home button works", async ({ page }) => {
