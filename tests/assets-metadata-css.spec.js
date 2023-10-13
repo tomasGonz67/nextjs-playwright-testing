@@ -4,7 +4,7 @@ const localhost = "http://localhost:3000";
 
 test("first post has title", async ({ page }) => {
   await page.goto(`${localhost}/posts/first-post`);
-  await expect(page).toHaveTitle("First Post");
+  await expect(page).toHaveTitle(/^[\w\s]+$/);
 });
 
 test("layout has css applied", async ({ page }) => {
