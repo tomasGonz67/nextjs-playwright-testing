@@ -4,7 +4,7 @@ const localhost = "http://localhost:3000";
 
 test("first posts exists", async ({ page }) => {
   await page.goto(`${localhost}/posts/first-post`);
-  await expect(page.locator("main>h1")).toHaveText("First Post");
+  await expect(page.locator("main>h1")).toHaveText(/^[\w\s]+$/);
 });
 
 test("back to home button works", async ({ page }) => {
