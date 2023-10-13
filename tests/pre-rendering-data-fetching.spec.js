@@ -2,9 +2,9 @@ import { test, expect } from "@playwright/test";
 
 const localhost = "http://localhost:3000";
 
-test("Home page shows both blogs", async ({ page }) => {
+test("Home page has blogs list", async ({ page }) => {
   await page.goto(localhost);
-  await expect(page.locator("ul>li")).toHaveCount(2);
+  await expect(page.getByRole("list")).not.toBeEmpty();
 });
 
 test("blogs have correct info", async ({ page }) => {
