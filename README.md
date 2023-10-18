@@ -1,6 +1,6 @@
 # NextJS Tutorial
 
-# Assignment Brief: Understanding React & Introduction to NextJS
+## Assignment Brief: Understanding React & Introduction to NextJS
 
 ### 📹 Instructor Video Overview:
 [Watch Here](https://youtu.be/Jg2v8MsqjOc)
@@ -57,7 +57,7 @@ npx playwright install
 
 **Starting Development Server**:
 ```bash
-npm run dev <- Starts the development server
+npm run dev
 ```
 **Running Tests**:
 Open another terminal window and execute:
