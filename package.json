@@ -3,7 +3,12 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "part-1": "playwright test page-navigation.spec.js",
+    "part-2": "playwright test assets-metadata.spec.js",
+    "part-3": "playwright test pre-rendering-data-fetching.spec.js",
+    "part-4": "playwright test dynamic-navigation.spec.js",
+    "part-5": "playwright test api-routes.spec.js"
   },
   "dependencies": {
     "date-fns": "^2.30.0",
