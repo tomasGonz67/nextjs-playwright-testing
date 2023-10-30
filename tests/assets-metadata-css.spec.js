@@ -2,11 +2,6 @@ import { test, expect } from "@playwright/test";
 
 const localhost = "http://localhost:3000";
 
-// test("first post has title", async ({ page }) => {
-//   await page.goto(`${localhost}/posts/first-post`);
-//   await expect(page).toHaveTitle(/^[\w\s]+$/);
-// });
-
 test("layout has css applied", async ({ page }) => {
   await page.goto(localhost);
   await expect(page.locator("body>div>div").first()).toHaveClass(
@@ -21,12 +16,6 @@ test("global css applied", async ({ page }) => {
     /^(\d+(\.\d+)?)(px|em|rem)$/
   ); // check thats there is a font-size set unit px or rem or em
 });
-
-// test("layout back to home button works", async ({ page }) => {
-//   await page.goto(`${localhost}/posts/first-post`);
-//   await page.locator("div>div>a").click();
-//   await expect(page).toHaveURL(localhost);
-// });
 
 test("name was updated", async ({ page }) => {
   await page.goto(localhost);
