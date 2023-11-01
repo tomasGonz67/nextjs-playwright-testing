@@ -30,13 +30,13 @@ You need to complete these tutorials outside of this project because they will i
 
 **Complete The following Tutorials - They don't take long (10-20 minutes each on average):**
 
-- https://nextjs.org/learn/basics/create-nextjs-app
-- https://nextjs.org/learn/basics/navigate-between-pages
-- https://nextjs.org/learn/basics/assets-metadata-css
-- https://nextjs.org/learn/basics/data-fetching
-- https://nextjs.org/learn/basics/dynamic-routes
-- https://nextjs.org/learn/basics/api-routes
-- https://nextjs.org/learn/basics/deploying-nextjs-app
+- [Create a Next.js App - Part 1](https://nextjs.org/learn/basics/create-nextjs-app)
+- [Navigate Between Pages - Part 2](https://nextjs.org/learn/basics/navigate-between-pages)
+- [Assets, Metadata, and CSS - Part 3](https://nextjs.org/learn/basics/assets-metadata-css)
+- [Data Fetching - Part 4](https://nextjs.org/learn/basics/data-fetching)
+- [Dynamic Routes - Part 5](https://nextjs.org/learn/basics/dynamic-routes)
+- [API Routes - Part 6](https://nextjs.org/learn/basics/api-routes)
+- [Deploying a Next.js App - Part 7](https://nextjs.org/learn/basics/deploying-nextjs-app)
 
 ## 📤 Submission Guidelines
 
@@ -74,7 +74,7 @@ npm run test
 
 This runs all the tests in the repo, running this command can help you understand if your tests will pass the autograder.
 
-After part 3, there is a test designed to test each subsequent part completed. In order to run one of these tests run "npm run part-(part-number)". For e.g
+After part 3, there is a test designed to test each subsequent part completed until part 6 (4 tests in total). In order to run one of these tests run "npm run part-(part-number)". For e.g
 
 ```bash
 npm run part-3
