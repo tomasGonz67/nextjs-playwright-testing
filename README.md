@@ -74,7 +74,7 @@ npm run test
 
 This runs all the tests in the repo, running this command can help you understand if your tests will pass the autograder.
 
-After part 3, there is a test designed to test it subsequent part completed. In order to run one of these tests run "npm run part-(part-number)". For e.g
+After part 3, there is a test designed to test each subsequent part completed. In order to run one of these tests run "npm run part-(part-number)". For e.g
 
 ```bash
 npm run part-3
