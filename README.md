@@ -49,7 +49,7 @@ You need to complete these tutorials outside of this project because they will i
 
 Complete through deploying your NextJS app to Vercel, its better than GitHub Pages.
 
-Put a link to your site hosted on Vercel [here](#)
+Put a link to your site hosted on Vercel https://nextjs-dlv4tw23g-froggychop100aolcoms-projects.vercel.app/ 
 
 Submit a link to your repository to Canvas when your code passes the Playwright tests.
 
